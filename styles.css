@@ -1,0 +1,83 @@
+body {
+    background-color: beige;
+}
+#SetDimensions {
+    border: solid gray 2px;
+    display: grid;
+    grid-template-rows: 1em 1em 2em;
+    width: fit-content;
+}
+input {
+    width: 4em;
+    height: 2;
+    
+}
+.MatrixDimensions {
+    width:15em;
+    height: auto;
+
+}
+
+#m1{
+    margin:0px;
+}
+
+#m2{
+    margin:0px;
+}
+
+#m11{
+    grid-area: m11;
+    
+}
+
+#m12{
+    grid-area: m12;
+}
+
+
+#m21{
+    grid-area: m21;
+}
+
+#m22{
+    grid-area: m22;
+    }
+
+tr {
+    border: 4px red solid;
+    
+}
+
+#FullMatrices {
+    display: flex;
+    align-items: center;
+}
+#Operation {
+    height: fit-content;
+    align-items: center;
+}
+th {
+    border:2px gray solid;
+    padding:5px;
+    width: 1em;
+    height: 1em;
+    
+}
+#RunOperation {
+    border-radius:20px;
+    height: 4em;
+    width: 10em;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    background-color:teal;
+    }
+button {
+    margin:4px;
+    cursor: pointer;
+
+}
+#ResultMatrix{
+    margin-left:7px;
+}

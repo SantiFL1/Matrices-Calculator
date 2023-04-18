@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Matrices calculator</title>
+</head>
+<body>
+    <div>
+        <h1>Matrices calculator</h1>
+        <div id="SetDimensions">  
+    
+    <div id="m1">
+        <input type="number" id="m11" class="MatrixDimensions" placeholder="First matrix rows"  value="">
+        X
+        <input type="number" id="m12" class="MatrixDimensions" placeholder="First matrix columns" value="">
+        
+    </div> <br>
+
+
+        <div id="m2">
+        <input type="number" id="m21" class="MatrixDimensions" placeholder="Second matrix rows" value="">
+        X
+        <input type="number" id="m22" class="MatrixDimensions" placeholder="Second matrix columns"  value=""></div>
+        <button id="Trigger">Trigger matrices</button>
+    </div>
+<div id="FullMatrices" style="display: none;">
+    <div id="FirstFullMatrix"><table id="FirstMatrixTable"></table></div>
+    <select id="Operation">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="X">X</option>
+        <option value="/">/</option>
+    </select>
+    <div id="SecondFuMatrix">
+        <table id="SecondMatrixTable"></table>
+    </div>
+    =
+    <div id="MatrixResult"></div>
+    </div>
+    <button id="RunOperation" style="display:none;">Run operation</button>    
+    
+</div>
+</body>
+<script src="MatricesCalculator.js"></script>
+</html>
